@@ -68,7 +68,7 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 
 <div align="center">
   <!-- 3D Contribution Grid -->
-  <img src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/profile-3d-contrib/profile-green-animate.svg" alt="GitHub Profile 3D Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/profile-3d-contrib/profile-green-animate.svg?v=1" alt="GitHub Profile 3D Grid" width="100%" />
 </div>
 
 <br/>
@@ -76,9 +76,9 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 <div align="center">
   <!-- Snake Game -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Game" src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake-dark.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg?v=1" />
+    <img alt="GitHub Contribution Snake Game" src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg?v=1" width="100%" />
   </picture>
 </div>
 
@@ -93,7 +93,7 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 ---
 
 ### 🔗 Connect with me
-- 🌐 Portfolio Website: [lamlb.github.io](https://lelam.dev)
+- 🌐 Portfolio Website: [lelam.dev](https://lelam.dev)
 - 📧 Email: [lelam7c10tp@gmail.com](mailto:lelam7c10tp@gmail.com)
 - ✈️ Telegram: [@lamlb2411](https://t.me/lamlb2411)
 - 👥 Facebook: [Le Bao Lam](https://www.facebook.com/lelam2411)
