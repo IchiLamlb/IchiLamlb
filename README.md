@@ -64,6 +64,26 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 
 ---
 
+### 🎮 GitHub Contribution Games & 3D Grid
+
+<div align="center">
+  <!-- 3D Contribution Grid -->
+  <img src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/profile-3d-contrib/profile-green-animate.svg" alt="GitHub Profile 3D Grid" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- Snake Game -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Game" src="https://raw.githubusercontent.com/IchiLamlb/IchiLamlb/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
+
+---
+
 ### 💼 Work Experience
 - 🏢 **Backend Developer** @ **SafeGate** *(08/2025 - Present)*
   - Designed high-performance Java microservices, integrated Kafka pipelines, ScyllaDB, ClickHouse, and optimized a 4-layer caching structure.
@@ -73,7 +93,7 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 ---
 
 ### 🔗 Connect with me
-- 🌐 Portfolio Website: [lamlb.github.io](https://lamlb.github.io)
+- 🌐 Portfolio Website: [lamlb.github.io](https://lelam.dev)
 - 📧 Email: [lelam7c10tp@gmail.com](mailto:lelam7c10tp@gmail.com)
 - ✈️ Telegram: [@lamlb2411](https://t.me/lamlb2411)
 - 👥 Facebook: [Le Bao Lam](https://www.facebook.com/lelam2411)

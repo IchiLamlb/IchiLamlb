@@ -1,0 +1,57 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate 3D Contribution Graph
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # Generate Snake game
+      - name: Generate Snake Game
+        uses: platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Move 3D contribution SVGs to dist directory
+      - name: Organize output files
+        run: |
+          mkdir -p dist
+          if [ -d "profile-3d-contrib" ]; then
+            cp -r profile-3d-contrib dist/
+          fi
+
+      # Push everything in dist to the 'output' branch
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
