@@ -59,7 +59,7 @@ I am a backend-focused **Software Developer** dedicated to building efficient, s
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IchiLamlb&theme=radical" alt="GitHub Streak" width="98%" />
+  <img src="https://streak-stats.demolab.com/?user=IchiLamlb&theme=radical" alt="GitHub Streak" width="98%" />
 </p>
 
 ---
